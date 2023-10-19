@@ -1,6 +1,6 @@
 module.exports = app => {
     const contacts = require("../controllers/contact.controller.js");
-  
+    
     var router = require("express").Router();
   
     router.post("/contacts/", contacts.create);

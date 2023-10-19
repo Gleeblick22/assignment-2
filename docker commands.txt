@@ -1,0 +1,44 @@
+to run existing docker project
+docker compose build
+after that
+docker compose up --build
+_____________________________________________
+to run node
+npm run
+npm start
+____________________________________________________
+to automatically refresh after code changes in node at the first time only
+install
+npm i nodemon -g
+then everytime
+nodemon app.js or server.js
+____________________________________________________________
+if 
+npm i nodemon -g is or nodemon app.js is blocked by system
+
+open windows powershell with admin access
+run
+Set-ExecutionPolicy --ExecutionPolicy Bypass
+and press A
+__________________________________________
+
+We use Axios for api integration
+first 
+npm install react-router-dom
+then
+npm install axios
+to install axios
+
+
+
+
+
+
+
+
+
+
+
+
+
+

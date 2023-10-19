@@ -23,4 +23,14 @@ db.sequelize = sequelize;
 db.contacts = require("./contact.model.js")(sequelize, Sequelize);
 db.phones = require("./phone.model.js")(sequelize, Sequelize);
 
+db.contacts.hasMany(db.phones, {
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE',
+  as: "phones"
+});
+db.phones.belongsTo(db.contacts, {
+  foreignKey: "contactId",
+  as: "contacts",
+});
+
 module.exports = db;

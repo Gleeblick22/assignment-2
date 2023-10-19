@@ -1,0 +1,36 @@
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align:left;
+}
+.text-right{
+    text-align: right;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.box-shadow{
+    box-shadow: 2px 2px 2px 2px silver;
+}
+.list {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+  }
+  
+.submit-form {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+.edit-form {
+    max-width: 300px;
+    margin: auto;
+  }
